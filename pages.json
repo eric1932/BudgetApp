@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
 			}
 		}
 	],
@@ -13,5 +13,41 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+		
+			"color": "#7A7E83",
+			"selectedColor": "#007AFF",
+			"borderStyle": "black",
+			"backgroundColor": "#F8F8F8",
+			"list": [{
+					"pagePath": "pages/index/index",
+					// "iconPath": "static/component.png",
+					// "selectedIconPath": "static/componentHL.png",
+					"text": "首页"
+				},
+				{
+					"pagePath": "pages/tabBar/component/component",
+					// "iconPath": "static/component.png",
+					// "selectedIconPath": "static/componentHL.png",
+					"text": "内置组件"
+				},
+				{
+					"pagePath": "pages/tabBar/API/API",
+					// "iconPath": "static/api.png",
+					// "selectedIconPath": "static/apiHL.png",
+					"text": "接口"
+				}, {
+					"pagePath": "pages/tabBar/extUI/extUI",
+					// "iconPath": "static/extui.png",
+					// "selectedIconPath": "static/extuiHL.png",
+					"text": "扩展组件"
+				}, {
+					"pagePath": "pages/tabBar/template/template",
+					// "iconPath": "static/template.png",
+					// "selectedIconPath": "static/templateHL.png",
+					"text": "模板"
+				}
+			]
+	}
 }
