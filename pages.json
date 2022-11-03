@@ -14,8 +14,14 @@
 		},
 		{
 			"path": "pages/my/my",
-			"style": {
-				"navigationBarTitleText": "我的"
+			"style" : {
+				"navigationBarTitleText" : "我的",
+				"navigationStyle" : "custom",
+				"enablePullDownRefresh" : true, //设置为true表示当前页面开启下拉刷新 
+				"background" : "#f0f0f0",
+				"statusbar" : {
+					"background" : "#f0f0f0"
+				}
 			}
 		}
 	],
