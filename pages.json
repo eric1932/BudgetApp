@@ -17,6 +17,12 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		},
+		{
+			"path": "pages/Average_Cost/Average_Cost",
+			"style": {
+				"navigationBarTitleText": "Cost"
+			}
 		}
 	],
 	"globalStyle": {
@@ -45,6 +51,10 @@
 				{
 					"pagePath": "pages/my/my",
 					"text": "我的"
+				},
+				{
+					"pagePath": "pages/Average_Cost/Average_Cost",
+					"text": "Cost"
 				}
 				// {
 				// 	"pagePath": "pages/tabBar/component/component",
