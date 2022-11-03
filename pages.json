@@ -17,6 +17,24 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		}, 
+		{
+			"path": "pages/settings/language/language",
+			"style": {
+				"navigationBarTitleText": "语言"
+			}
+		},
+		{
+			"path": "pages/settings/feedBack/feedBack",
+			"style": {
+				"navigationBarTitleText": "建议反馈"
+			}
+		}, 
+		{
+			"path": "pages/settings/reminder/reminder",
+			"style": {
+				"navigationBarTitleText": "定时提醒"
+			}
 		}
 	],
 	"globalStyle": {
